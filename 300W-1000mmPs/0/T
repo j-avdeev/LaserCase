@@ -62,16 +62,16 @@ boundaryField
          TfH             300;//300;
          TfQ             290;//290;
  
-         heatingTime     3;
+         heatingTime     5e-07;
  
          source1
          {
-             power       300;
-             spotCenter  (0.010 0.010 0);
+             power       2;//300;
+             spotCenter  (0 0 10);
              normal      (0 1 0);  //- Not used
  
-             sigmaX      0.000000007;
-             sigmaY      0.000000007;
+             sigmaX      70e-09;
+             sigmaY      70e-09;
  
              correlation 0;
  
@@ -88,7 +88,7 @@ boundaryField
                   mode linear;
                   points
                   {
-                    p0  (-5e-07 0 0);
+                    p0  (-2e-07 0 0);
                     p1  (1 0 0);
 //                     p2  (0.05 0.02 0);
 //                     p3  (0 0.02 0);
@@ -101,7 +101,7 @@ boundaryField
         powerReduceName   none;
         kName             k;
 
-         kValue          10;
+         kValue          250;
     }
 }
 

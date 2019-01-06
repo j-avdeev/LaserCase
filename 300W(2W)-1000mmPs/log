@@ -1,0 +1,505 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : laplacianFoam
+Date   : Jan 06 2019
+Time   : 20:57:39
+Host   : "ubuntu-dell"
+PID    : 5781
+I/O    : uncollated
+Case   : /home/jenek/Documents/SSAUdocs/AdditiveSolver/LaserCase/300W-1000mmPs
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 3.8e-07
+
+
+SIMPLE: no convergence criteria found. Calculations will run for 3 steps.
+
+Reading field T
+
+Reading laserConvection from patch inlet
+
+ ++ No k field is used. Value for k is 250
+
+ ++ Read motion dict for source source1
+    ++ Linear mode for motion is used
+ ++ For patch inlet a laser source is used. In total there are 1 sources
+
+Reading transportProperties
+
+Reading diffusivity DT
+
+No finite volume options present
+
+
+Calculating temperature distribution
+
+Time = 3.85e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00624386, Final residual = 2.91236e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 0.000226906, Final residual = 5.07574e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.07584e-07, Final residual = 5.07584e-07, No Iterations 0
+ExecutionTime = 10 s  ClockTime = 10 s
+
+Time = 3.9e-07
+
+DICPCG:  Solving for T, Initial residual = 0.0063574, Final residual = 3.46283e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.43385e-07, Final residual = 3.43385e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.43385e-07, Final residual = 3.43385e-07, No Iterations 0
+ExecutionTime = 11.59 s  ClockTime = 11 s
+
+Time = 3.95e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00630914, Final residual = 3.42987e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.40158e-07, Final residual = 3.40158e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.40158e-07, Final residual = 3.40158e-07, No Iterations 0
+ExecutionTime = 13.2 s  ClockTime = 13 s
+
+Time = 4e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00626197, Final residual = 3.39798e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.37035e-07, Final residual = 3.37035e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.37035e-07, Final residual = 3.37035e-07, No Iterations 0
+ExecutionTime = 18.55 s  ClockTime = 18 s
+
+Time = 4.05e-07
+
+DICPCG:  Solving for T, Initial residual = 0.0062156, Final residual = 3.36679e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.33981e-07, Final residual = 3.33981e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.33981e-07, Final residual = 3.33981e-07, No Iterations 0
+ExecutionTime = 20.17 s  ClockTime = 20 s
+
+Time = 4.1e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00617021, Final residual = 3.33639e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.31004e-07, Final residual = 3.31004e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.31004e-07, Final residual = 3.31004e-07, No Iterations 0
+ExecutionTime = 21.8 s  ClockTime = 22 s
+
+Time = 4.15e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00612556, Final residual = 3.30659e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.28084e-07, Final residual = 3.28084e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.28084e-07, Final residual = 3.28084e-07, No Iterations 0
+ExecutionTime = 23.41 s  ClockTime = 23 s
+
+Time = 4.2e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00608183, Final residual = 3.27753e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.25236e-07, Final residual = 3.25236e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.25236e-07, Final residual = 3.25236e-07, No Iterations 0
+ExecutionTime = 28.77 s  ClockTime = 29 s
+
+Time = 4.25e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00603878, Final residual = 3.249e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.22439e-07, Final residual = 3.22439e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.22439e-07, Final residual = 3.22439e-07, No Iterations 0
+ExecutionTime = 30.37 s  ClockTime = 30 s
+
+Time = 4.3e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00599659, Final residual = 3.22115e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.19708e-07, Final residual = 3.19708e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.19708e-07, Final residual = 3.19708e-07, No Iterations 0
+ExecutionTime = 31.98 s  ClockTime = 32 s
+
+Time = 4.35e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00595503, Final residual = 3.19378e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.17024e-07, Final residual = 3.17024e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.17024e-07, Final residual = 3.17024e-07, No Iterations 0
+ExecutionTime = 33.59 s  ClockTime = 33 s
+
+Time = 4.4e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00591427, Final residual = 3.16704e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.14402e-07, Final residual = 3.14402e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.14402e-07, Final residual = 3.14402e-07, No Iterations 0
+ExecutionTime = 38.95 s  ClockTime = 39 s
+
+Time = 4.45e-07
+
+DICPCG:  Solving for T, Initial residual = 0.0058741, Final residual = 3.14074e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.11821e-07, Final residual = 3.11821e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.11821e-07, Final residual = 3.11821e-07, No Iterations 0
+ExecutionTime = 40.56 s  ClockTime = 40 s
+
+Time = 4.5e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00583467, Final residual = 3.11501e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.09296e-07, Final residual = 3.09296e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.09296e-07, Final residual = 3.09296e-07, No Iterations 0
+ExecutionTime = 42.16 s  ClockTime = 42 s
+
+Time = 4.55e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00579576, Final residual = 3.08965e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.06806e-07, Final residual = 3.06806e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.06806e-07, Final residual = 3.06806e-07, No Iterations 0
+ExecutionTime = 43.78 s  ClockTime = 44 s
+
+Time = 4.6e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00575754, Final residual = 3.0648e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.04366e-07, Final residual = 3.04366e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.04366e-07, Final residual = 3.04366e-07, No Iterations 0
+ExecutionTime = 49.19 s  ClockTime = 49 s
+
+Time = 4.65e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00571979, Final residual = 3.04025e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.01956e-07, Final residual = 3.01956e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.01956e-07, Final residual = 3.01956e-07, No Iterations 0
+ExecutionTime = 50.81 s  ClockTime = 51 s
+
+Time = 4.7e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00568264, Final residual = 3.01615e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.99588e-07, Final residual = 2.99588e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.99588e-07, Final residual = 2.99588e-07, No Iterations 0
+ExecutionTime = 52.43 s  ClockTime = 52 s
+
+Time = 4.75e-07
+
+DICPCG:  Solving for T, Initial residual = 0.0056459, Final residual = 2.99226e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.97241e-07, Final residual = 2.97241e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.97241e-07, Final residual = 2.97241e-07, No Iterations 0
+ExecutionTime = 54.04 s  ClockTime = 54 s
+
+Time = 4.8e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00560968, Final residual = 2.96873e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.94928e-07, Final residual = 2.94928e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.94928e-07, Final residual = 2.94928e-07, No Iterations 0
+ExecutionTime = 59.49 s  ClockTime = 59 s
+
+Time = 4.85e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00557378, Final residual = 2.94532e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.92626e-07, Final residual = 2.92626e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.92626e-07, Final residual = 2.92626e-07, No Iterations 0
+ExecutionTime = 61.11 s  ClockTime = 61 s
+
+Time = 4.9e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00553831, Final residual = 2.92215e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.90348e-07, Final residual = 2.90348e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.90348e-07, Final residual = 2.90348e-07, No Iterations 0
+ExecutionTime = 62.73 s  ClockTime = 63 s
+
+Time = 4.95e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00550305, Final residual = 2.89898e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.88069e-07, Final residual = 2.88069e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.88069e-07, Final residual = 2.88069e-07, No Iterations 0
+ExecutionTime = 64.33 s  ClockTime = 64 s
+
+Time = 5e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00546812, Final residual = 2.87593e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.858e-07, Final residual = 2.858e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.858e-07, Final residual = 2.858e-07, No Iterations 0
+ExecutionTime = 69.77 s  ClockTime = 70 s
+
+Time = 5.05e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00750126, Final residual = 8.68971e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 8.69927e-07, Final residual = 8.69927e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 8.69927e-07, Final residual = 8.69927e-07, No Iterations 0
+ExecutionTime = 71.37 s  ClockTime = 71 s
+
+Time = 5.1e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00596657, Final residual = 6.06672e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 6.07287e-07, Final residual = 6.07287e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 6.07287e-07, Final residual = 6.07287e-07, No Iterations 0
+ExecutionTime = 72.97 s  ClockTime = 73 s
+
+Time = 5.15e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00537137, Final residual = 4.47306e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 4.47734e-07, Final residual = 4.47734e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 4.47734e-07, Final residual = 4.47734e-07, No Iterations 0
+ExecutionTime = 74.56 s  ClockTime = 74 s
+
+Time = 5.2e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00496375, Final residual = 3.39299e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 3.39609e-07, Final residual = 3.39609e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 3.39609e-07, Final residual = 3.39609e-07, No Iterations 0
+ExecutionTime = 80.03 s  ClockTime = 80 s
+
+Time = 5.25e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00465104, Final residual = 2.69071e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.69307e-07, Final residual = 2.69307e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.69307e-07, Final residual = 2.69307e-07, No Iterations 0
+ExecutionTime = 81.63 s  ClockTime = 82 s
+
+Time = 5.3e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00439119, Final residual = 2.22196e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 2.22383e-07, Final residual = 2.22383e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 2.22383e-07, Final residual = 2.22383e-07, No Iterations 0
+ExecutionTime = 83.23 s  ClockTime = 83 s
+
+Time = 5.35e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00417464, Final residual = 1.89337e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.8949e-07, Final residual = 1.8949e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.8949e-07, Final residual = 1.8949e-07, No Iterations 0
+ExecutionTime = 84.84 s  ClockTime = 85 s
+
+Time = 5.4e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00398706, Final residual = 1.64844e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.64973e-07, Final residual = 1.64973e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.64973e-07, Final residual = 1.64973e-07, No Iterations 0
+ExecutionTime = 90.34 s  ClockTime = 90 s
+
+Time = 5.45e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00382052, Final residual = 1.45656e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.45766e-07, Final residual = 1.45766e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.45766e-07, Final residual = 1.45766e-07, No Iterations 0
+ExecutionTime = 91.94 s  ClockTime = 92 s
+
+Time = 5.5e-07
+
+DICPCG:  Solving for T, Initial residual = 0.0036718, Final residual = 1.30537e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.30632e-07, Final residual = 1.30632e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.30632e-07, Final residual = 1.30632e-07, No Iterations 0
+ExecutionTime = 93.55 s  ClockTime = 93 s
+
+Time = 5.55e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00353796, Final residual = 1.18754e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.18837e-07, Final residual = 1.18837e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.18837e-07, Final residual = 1.18837e-07, No Iterations 0
+ExecutionTime = 95.15 s  ClockTime = 95 s
+
+Time = 5.6e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00341603, Final residual = 1.09162e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.09236e-07, Final residual = 1.09236e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.09236e-07, Final residual = 1.09236e-07, No Iterations 0
+ExecutionTime = 100.68 s  ClockTime = 101 s
+
+Time = 5.65e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00330386, Final residual = 1.01195e-07, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 1.01261e-07, Final residual = 1.01261e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 1.01261e-07, Final residual = 1.01261e-07, No Iterations 0
+ExecutionTime = 102.28 s  ClockTime = 102 s
+
+Time = 5.7e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00320012, Final residual = 9.4512e-08, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 9.4572e-08, Final residual = 9.4572e-08, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 9.4572e-08, Final residual = 9.4572e-08, No Iterations 0
+ExecutionTime = 103.9 s  ClockTime = 104 s
+
+Time = 5.75e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00310382, Final residual = 8.88634e-08, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 8.89179e-08, Final residual = 8.89179e-08, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 8.89179e-08, Final residual = 8.89179e-08, No Iterations 0
+ExecutionTime = 105.51 s  ClockTime = 105 s
+
+Time = 5.8e-07
+
+DICPCG:  Solving for T, Initial residual = 0.003014, Final residual = 8.40509e-08, No Iterations 4
+DICPCG:  Solving for T, Initial residual = 8.41008e-08, Final residual = 8.41008e-08, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 8.41008e-08, Final residual = 8.41008e-08, No Iterations 0
+ExecutionTime = 111.02 s  ClockTime = 111 s
+
+Time = 5.85e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00292979, Final residual = 9.86166e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 9.86732e-07, Final residual = 9.86732e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 9.86732e-07, Final residual = 9.86732e-07, No Iterations 0
+ExecutionTime = 112.55 s  ClockTime = 113 s
+
+Time = 5.9e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00285051, Final residual = 9.40011e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 9.40532e-07, Final residual = 9.40532e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 9.40532e-07, Final residual = 9.40532e-07, No Iterations 0
+ExecutionTime = 114.09 s  ClockTime = 114 s
+
+Time = 5.95e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00277561, Final residual = 8.98276e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 8.98758e-07, Final residual = 8.98758e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 8.98758e-07, Final residual = 8.98758e-07, No Iterations 0
+ExecutionTime = 115.63 s  ClockTime = 116 s
+
+Time = 6e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00270468, Final residual = 8.60239e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 8.60685e-07, Final residual = 8.60685e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 8.60685e-07, Final residual = 8.60685e-07, No Iterations 0
+ExecutionTime = 121.09 s  ClockTime = 121 s
+
+Time = 6.05e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00263734, Final residual = 8.25339e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 8.25754e-07, Final residual = 8.25754e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 8.25754e-07, Final residual = 8.25754e-07, No Iterations 0
+ExecutionTime = 122.63 s  ClockTime = 123 s
+
+Time = 6.1e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00257325, Final residual = 7.93133e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 7.93519e-07, Final residual = 7.93519e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 7.93519e-07, Final residual = 7.93519e-07, No Iterations 0
+ExecutionTime = 124.17 s  ClockTime = 124 s
+
+Time = 6.15e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00251209, Final residual = 7.63272e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 7.63631e-07, Final residual = 7.63631e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 7.63631e-07, Final residual = 7.63631e-07, No Iterations 0
+ExecutionTime = 125.7 s  ClockTime = 126 s
+
+Time = 6.2e-07
+
+DICPCG:  Solving for T, Initial residual = 0.0024536, Final residual = 7.35501e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 7.35837e-07, Final residual = 7.35837e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 7.35837e-07, Final residual = 7.35837e-07, No Iterations 0
+ExecutionTime = 131.19 s  ClockTime = 131 s
+
+Time = 6.25e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00239755, Final residual = 7.09632e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 7.09946e-07, Final residual = 7.09946e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 7.09946e-07, Final residual = 7.09946e-07, No Iterations 0
+ExecutionTime = 132.75 s  ClockTime = 133 s
+
+Time = 6.3e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00234376, Final residual = 6.85518e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 6.85812e-07, Final residual = 6.85812e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 6.85812e-07, Final residual = 6.85812e-07, No Iterations 0
+ExecutionTime = 134.3 s  ClockTime = 134 s
+
+Time = 6.35e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00229205, Final residual = 6.63054e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 6.6333e-07, Final residual = 6.6333e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 6.6333e-07, Final residual = 6.6333e-07, No Iterations 0
+ExecutionTime = 135.83 s  ClockTime = 136 s
+
+Time = 6.4e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00224227, Final residual = 6.42179e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 6.42438e-07, Final residual = 6.42438e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 6.42438e-07, Final residual = 6.42438e-07, No Iterations 0
+ExecutionTime = 141.32 s  ClockTime = 141 s
+
+Time = 6.45e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00219427, Final residual = 6.22794e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 6.23038e-07, Final residual = 6.23038e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 6.23038e-07, Final residual = 6.23038e-07, No Iterations 0
+ExecutionTime = 142.86 s  ClockTime = 143 s
+
+Time = 6.5e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00214793, Final residual = 6.04797e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 6.05027e-07, Final residual = 6.05027e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 6.05027e-07, Final residual = 6.05027e-07, No Iterations 0
+ExecutionTime = 144.4 s  ClockTime = 144 s
+
+Time = 6.55e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00210313, Final residual = 5.88087e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.88304e-07, Final residual = 5.88304e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.88304e-07, Final residual = 5.88304e-07, No Iterations 0
+ExecutionTime = 145.93 s  ClockTime = 146 s
+
+Time = 6.6e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00205978, Final residual = 5.72561e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.72767e-07, Final residual = 5.72767e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.72767e-07, Final residual = 5.72767e-07, No Iterations 0
+ExecutionTime = 151.42 s  ClockTime = 151 s
+
+Time = 6.65e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00201777, Final residual = 5.58111e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.58306e-07, Final residual = 5.58306e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.58306e-07, Final residual = 5.58306e-07, No Iterations 0
+ExecutionTime = 152.97 s  ClockTime = 153 s
+
+Time = 6.7e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00197704, Final residual = 5.44628e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.44813e-07, Final residual = 5.44813e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.44813e-07, Final residual = 5.44813e-07, No Iterations 0
+ExecutionTime = 154.5 s  ClockTime = 155 s
+
+Time = 6.75e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00193752, Final residual = 5.32006e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.32182e-07, Final residual = 5.32182e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.32182e-07, Final residual = 5.32182e-07, No Iterations 0
+ExecutionTime = 156.03 s  ClockTime = 156 s
+
+Time = 6.8e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00189914, Final residual = 5.20144e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.20312e-07, Final residual = 5.20312e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.20312e-07, Final residual = 5.20312e-07, No Iterations 0
+ExecutionTime = 161.51 s  ClockTime = 162 s
+
+Time = 6.85e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00186182, Final residual = 5.08949e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 5.09109e-07, Final residual = 5.09109e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 5.09109e-07, Final residual = 5.09109e-07, No Iterations 0
+ExecutionTime = 163.05 s  ClockTime = 163 s
+
+Time = 6.9e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00182552, Final residual = 4.98343e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 4.98496e-07, Final residual = 4.98496e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 4.98496e-07, Final residual = 4.98496e-07, No Iterations 0
+ExecutionTime = 164.6 s  ClockTime = 165 s
+
+Time = 6.95e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00179018, Final residual = 4.88254e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 4.88401e-07, Final residual = 4.88401e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 4.88401e-07, Final residual = 4.88401e-07, No Iterations 0
+ExecutionTime = 166.15 s  ClockTime = 166 s
+
+Time = 7e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00175575, Final residual = 4.78617e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 4.78757e-07, Final residual = 4.78757e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 4.78757e-07, Final residual = 4.78757e-07, No Iterations 0
+ExecutionTime = 171.63 s  ClockTime = 172 s
+
+Time = 7.05e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00172219, Final residual = 4.69383e-07, No Iterations 3
+DICPCG:  Solving for T, Initial residual = 4.69517e-07, Final residual = 4.69517e-07, No Iterations 0
+DICPCG:  Solving for T, Initial residual = 4.69517e-07, Final residual = 4.69517e-07, No Iterations 0
+ExecutionTime = 173.15 s  ClockTime = 173 s
+
+Time = 7.1e-07
+
+DICPCG:  Solving for T, Initial residual = 0.00168946, Final residual = 4.60511e-07, No Iterations 3
