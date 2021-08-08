@@ -1,6 +1,7 @@
 # LaserCase
 
-Based on [laserConvectionBC by Tobias Holzmann](https://bitbucket.org/shor-ty/laserconvectionbc/src)
+Uses solver with laserConvectionBC(https://github.com/j-avdeev/laserConvectionBC), which
+based on [laserConvectionBC by Tobias Holzmann](https://bitbucket.org/shor-ty/laserconvectionbc/src)
 
 
 To install
